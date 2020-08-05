@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\J7sz\Documents\GitHub\P2Bio-Tifs\TakePictureCamera\app\.cxx\cmake\debug\arm64-v8a'
+ninja: no work to do.

@@ -1,0 +1,20 @@
+Executable : C:\Users\J7sz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HC:\Users\J7sz\Documents\GitHub\P2Bio-Tifs\TakePictureCamera\app\src\main\cpp
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\J7sz\AppData\Local\Android\Sdk\ndk\21.0.6113669\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=C:\Users\J7sz\AppData\Local\Android\Sdk\ndk\21.0.6113669
+-DANDROID_PLATFORM=android-23
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_ANDROID_NDK=C:\Users\J7sz\AppData\Local\Android\Sdk\ndk\21.0.6113669
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\J7sz\Documents\GitHub\P2Bio-Tifs\TakePictureCamera\app\build\intermediates\cmake\release\obj\arm64-v8a
+-DCMAKE_MAKE_PROGRAM=C:\Users\J7sz\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=23
+-BC:\Users\J7sz\Documents\GitHub\P2Bio-Tifs\TakePictureCamera\app\.cxx\cmake\release\arm64-v8a
+-GNinja
+jvmArgs : 
+
+Build command args:

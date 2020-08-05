@@ -1,0 +1,3 @@
+C:/Users/J7sz/Documents/GitHub/P2Bio-Tifs/TakePictureCamera/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/native-lib.dir
+C:/Users/J7sz/Documents/GitHub/P2Bio-Tifs/TakePictureCamera/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/J7sz/Documents/GitHub/P2Bio-Tifs/TakePictureCamera/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

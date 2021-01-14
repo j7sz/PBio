@@ -72,6 +72,7 @@ public class LoginSelection extends AppCompatActivity implements View.OnClickLis
 
 //    An onclick listener that learn which services that the user select
 //    Pass the selected service to the next activity
+//    TODO: In practice, one should pass the service IP address to the next activity
     @Override
     public void onClick(View v) {
         int service;
@@ -108,6 +109,7 @@ public class LoginSelection extends AppCompatActivity implements View.OnClickLis
 //        navigate user to setting page if there is no user ID exists
 //        otherwise, it navigate to user to authentication page
 //        intent putExtra() allows one to pass which selected service to the next activity
+//        TODO: One should also include the selected ip address to the next activity
         String name = sharedPref.getString("etxt_id", "");
         if (name.equals("")) {
             Toast.makeText(LoginSelection.this,"Please ensure you have setup your ID.", Toast.LENGTH_SHORT).show();

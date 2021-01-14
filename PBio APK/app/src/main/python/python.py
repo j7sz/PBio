@@ -83,7 +83,7 @@ def ver_cloud_distance(usk, decode_sub_distance, cloud_distance, tolerance):
 # To ask for prepare GSHADE
 # Exception returns if user ID doesnt exist
 def sub_auth(id, ipaddr):
-    url = "http://"+ipaddr+":5001/sub_auth"
+    url = "http://"+ipaddr+":5003/sub_auth"
     data = {'id': id}
     try:
         response = requests.post(url, json=data, timeout=2)
@@ -102,7 +102,7 @@ def sub_auth(id, ipaddr):
 # To ask for prepare GSHADE
 # Exception returns if user ID doesnt exist
 def cloud_auth(id, ipaddr):
-    url = "http://"+ipaddr+":5001/cloud_auth"
+    url = "http://"+ipaddr+":5002/cloud_auth"
     data = {'id': id}
     try:
         response = requests.post(url, json=data, timeout=2)
@@ -152,7 +152,7 @@ def request_otp(id, ipaddr):
 
 # Request a user key
 def request_key(id, ipaddr, otp):
-    url = "http://" + ipaddr + ":5001/temp"
+    url = "http://" + ipaddr + ":5001/requestkey"
     data = {'id': id, 'otp':otp}
     try:
         response = requests.post(url, json=data, timeout=2)
